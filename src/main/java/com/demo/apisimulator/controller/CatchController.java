@@ -18,7 +18,7 @@ public class CatchController {
 
     //CREATE
     @PostMapping("/gov/curp")
-    public ResponseEntity<CatchEntity> createCathEntity(@RequestBody CatchEntity catchEntity) {
+    public ResponseEntity<CatchEntity> createCatchEntity(@RequestBody CatchEntity catchEntity) {
         if (catchEntity.getDatosDocProbatorio() != null) {
             catchEntity.getDatosDocProbatorio().setCatchEntity(catchEntity);
         }
