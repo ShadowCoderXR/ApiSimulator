@@ -12,6 +12,7 @@ public class CatchEntity {
     private int id;
     private String estatus;
     private String codigoValidacion;
+    @Column(unique = true)
     private String curp;
     private String nombre;
     private String apellidoPaterno;
