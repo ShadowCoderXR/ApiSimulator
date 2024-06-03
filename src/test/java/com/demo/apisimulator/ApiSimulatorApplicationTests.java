@@ -1,10 +1,10 @@
-package com.docs.veridocs;
+package com.demo.apisimulator;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class VeridocsApplicationTests {
+class ApiSimulatorApplicationTests {
 
 	@Test
 	void contextLoads() {

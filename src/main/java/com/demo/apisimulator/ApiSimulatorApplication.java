@@ -1,13 +1,13 @@
-package com.docs.veridocs;
+package com.demo.apisimulator;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class VeridocsApplication {
+public class ApiSimulatorApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(VeridocsApplication.class, args);
+		SpringApplication.run(ApiSimulatorApplication.class, args);
 	}
 
 }
