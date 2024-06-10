@@ -1,0 +1,28 @@
+{
+  "estatus": "OK",
+  "codigoValidacion": "curp1666719427913",
+  "curp": "GUPJ010526HDFZRHA2",
+  "nombre": "JOHAN",
+  "apellidoPaterno": "GUZMAN",
+  "apellidoMaterno": "PEREZ",
+  "sexo": "HOMBRE",
+  "fechaNacimiento": "26/05/2001",
+  "paisNacimiento": "MEXICO",
+  "estadoNacimiento": "DISTRITO FEDERAL",
+  "docProbatorio": 1,
+  "datosDocProbatorio": {
+  "anioReg": "2001",
+    "claveEntidadRegistro": "09",
+    "entidadRegistro": "DISTRITO FEDERAL",
+    "tomo": "",
+    "foja": "",
+    "numActa": "02124",
+    "libro": "",
+    "claveMunicipioRegistro": "005",
+    "municipioRegistro": "GUSTAVO A. MADERO"
+  },
+  "estatusCurp": "RCN",
+  "estatusCurpDesc": "REGISTRO DE CAMBIO NO AFECTANDO A CURP",
+  "documento": "",
+  "claveMensaje": "0"
+}
