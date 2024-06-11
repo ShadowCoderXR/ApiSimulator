@@ -1,0 +1,25 @@
+{
+  "estatus": "OK",
+  "codigoValidacion": "",
+  "curp": "GAGS031227HDFRRLA3",
+  "nombre": "Saul Ivan",
+  "apellidoPaterno": "Garcia",
+  "apellidoMaterno": "Garcia",
+  "sexo": "H",
+  "fechaNacimiento": "27/12/2003",
+  "paisNacimiento": "Mexico",
+  "estadoNacimiento": "Distrito Federal",
+  "docProbatorio": "Acta de nacimiento",
+  "datosDocProbatorio": {
+    "anioReg": "2003",
+    "municipioRegistro": "df",
+    "tomo": "",
+    "libro": "",
+    "numActa": "",
+    "foja": "",
+    "entidadRegistro": "",
+    "claveEntidadRegistro": ""
+  },
+  "codigoMensaje": "0",
+  "documento": ""
+}
