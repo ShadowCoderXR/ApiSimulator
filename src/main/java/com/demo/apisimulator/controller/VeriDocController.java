@@ -17,4 +17,28 @@ public class VeriDocController {
         LogUtil.logRequest("/api/gov/curp", request);
         return ApiResponseUtil.createResponse("curp.json");
     }
+
+    @PostMapping("/gov/ine")
+    public Map<String, Object> validateIne(@RequestBody String request) {
+        LogUtil.logRequest("/api/gov/ine", request);
+        return ApiResponseUtil.createResponse("ine.json");
+    }
+
+    @PostMapping("/gov/rfc")
+    public Map<String, Object> validateRFC(@RequestBody String request) {
+        LogUtil.logRequest("/api/gov/rfc", request);
+        return ApiResponseUtil.createResponse("rfc.json");
+    }
+
+    @PostMapping("/auth/token")
+    public Map<String, Object> validateLogin(@RequestBody String request) {
+        LogUtil.logRequest("/api/auth/token", request);
+        return ApiResponseUtil.createResponse("auth.json");
+    }
+
+    @PostMapping("/blacklist")
+    public Map<String, Object> validateBlacklist(@RequestBody String request) {
+        LogUtil.logRequest("/api/blacklist", request);
+        return ApiResponseUtil.createResponse("blacklist.json");
+    }
 }
