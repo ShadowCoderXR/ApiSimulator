@@ -11,6 +11,8 @@ import java.time.format.DateTimeFormatter;
 public class LogUtil {
     public static void logRequest(String uri, String body) {
         try {
+            System.out.println("Logging request: " + uri);
+            System.out.println("Request body: " + body);
             String folderName = uri.substring(uri.lastIndexOf('/') + 1);
             String logDir = "logs/" + folderName;
             Files.createDirectories(Paths.get(logDir));

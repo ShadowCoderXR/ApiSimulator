@@ -36,4 +36,9 @@ public class VeriDocController {
         return ApiResponseUtil.createResponse("auth.json");
     }
 
+    @PostMapping("/blacklist")
+    public Map<String, Object> validateBlacklist(@RequestBody String request) {
+        LogUtil.logRequest("/api/blacklist", request);
+        return ApiResponseUtil.createResponse("blacklist.json");
+    }
 }
