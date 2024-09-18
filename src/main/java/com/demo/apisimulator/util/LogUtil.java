@@ -21,6 +21,7 @@ public class LogUtil {
             Files.write(Paths.get(logFileName), logEntry.getBytes(), StandardOpenOption.CREATE, StandardOpenOption.APPEND);
         } catch (IOException e) {
             e.printStackTrace();
+
         }
     }
 }
